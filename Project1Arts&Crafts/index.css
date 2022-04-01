@@ -1,0 +1,31 @@
+
+  /* Centered text */
+  h1 {
+      position: absolute;
+      top: 0px;
+      right: 180px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 100px;
+   font-weight: bold;
+   color:khaki;
+  }
+  h2{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 32px;
+      font-weight: bold;
+      color:white;
+      background-color: mediumspringgreen;
+  }
+  h3{
+      left: 42px;
+  }
+  p {
+      background-color: lightcoral;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 32px;
+      font-weight: bold;
+      color:white;
+  }
+  #paint {
+      background-color: skyblue;
+  }

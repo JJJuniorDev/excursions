@@ -1,0 +1,166 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    height: 2000px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    border-radius: 50%;
+    justify-content: center;
+   
+}
+
+header {
+    border-bottom: 2px solid seashell;
+    border-top: 2px solid seashell;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    display: inline-flex;
+   padding: 20px;
+}
+nav img {
+    max-width: 100%;
+    height: 55px;
+    }
+.container {
+position: relative;
+bottom: 63px;
+left:520px;
+display: inline-flex;
+}
+
+
+
+a {
+color: white;
+font-size: 22px;
+padding: 10px;
+text-indent: 170px;
+display: inline-flex;
+}
+
+#medium {
+  width:1200px;
+  justify-content: center;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%);
+    border-radius: 40%;
+}
+h2 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+.secondmedium {
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    position: absolute;
+    top: 194%;
+    left: 100%;
+     transform: translate(-100%, -100%);
+    display:inline-block;
+    overflow: hidden;
+}
+figure {
+    display: inline-block;
+    margin-inline: 10px;
+    position: relative;
+left: 250px;
+   
+}
+figcaption {
+   text-align: center;
+}
+.secondline {
+    height:900px;
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    width: 110%;
+    position: absolute;
+    top:293%;
+    left:100%;
+    overflow: hidden;
+    transform: translate(-100%, -100%);
+    
+    
+}
+img { 
+   
+    width: 300px;
+}
+footer {
+justify-content: center;
+position:relative;
+overflow: visible;
+}
+
+.parent img {
+    height:600px;
+    display:flex;
+    top:1500px; 
+    width: 80%;
+    position: relative;
+     background-color: black; 
+     justify-items: center;
+     object-fit: cover;
+     left:150px;
+     float: left;
+}
+
+.parent .child {
+    position: relative;
+    top:970px;
+    left: 240px;
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    border: 2px solid red;
+    background-color: black; 
+    
+}
+.text-box {
+    position: relative;    
+    height: 100%;
+    text-align: center;    
+    width: 100%;
+    top:1466px;
+    right:620px;
+}
+.text-box:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+ }
+ .text-box h4 {
+    display: inline-block;
+    font-size: 40px;
+    color: #FFF;   
+ }
+ .footerone {
+     position: relative;
+     height:300px;
+     top:1170px;
+     background-color: black;
+     width: 100%;
+ }
+ .footerone .Name h2 {
+     position: relative;
+     height: 100%;
+     text-align: center;
+     width: 100%;
+     top: 2076px;
+     color: #FFF;
+     font-size: 50px;
+ }
