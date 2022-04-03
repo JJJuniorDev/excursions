@@ -1,0 +1,127 @@
+header {
+    height: 64px;
+    background-color: white;
+  font-weight: bold;
+  font-size: 24px;
+    width: 100%;
+    vertical-align: middle ;
+}
+header p {
+  position:relative;
+}
+
+header img {
+   position: relative;
+   top: 10px;
+}
+
+.container {
+    height: 730px;
+    width: 100%;
+    background-color: gainsboro;
+    align-items: center;
+    display: inline-flex;
+}
+
+.container img {
+   padding: 32px 24px;
+    width: 60%;
+   
+}
+
+.container h1 {
+    font-size: 70px;
+}
+
+.container h2 {
+  font-size: 42px;
+}
+.container-sub-primary {
+align-items: baseline;
+}
+
+.container-sub-primary p{
+  text-align: center;
+  height: 48px;
+  font-size: 16px;
+  background-color: gray;
+  align-items: center;
+}
+
+.container-sub-primary a {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+}
+
+.second-container {
+  height: 730px;
+  width: 100%;
+  background-color: gainsboro;
+  align-items: center;
+  display: flex;
+}
+
+.second-container img {
+   width: 60%;
+   padding: 32px 24px; 
+   position: relative;
+   bottom: 90px;
+}
+
+.container-sub-secondary {
+width: 40%;
+align-items: center;
+height: auto;
+
+}
+
+.helper {
+  padding: 32px 24px;
+  height: auto;
+  width: 35%;
+  display: inline-block;
+    vertical-align: middle;
+}
+
+.helper img {
+  vertical-align: middle;
+}
+.second-container-text  {
+  position: absolute;
+  top: 1280px;
+  padding-left: 24px;
+  font-size: 32px;
+}
+.second-container-text h2 {
+  position: absolute;
+  top: 100px;
+  padding-left: 24px;
+  font-size: 24px;
+}
+
+.second-container-text h3 {
+  position: absolute;
+  font-size: 12px;
+  padding-left: 24px;
+  top:215px;
+}
+
+.third-container {
+  height: 730px;
+  width: 100%;
+  background-color: gainsboro;
+  align-items: center;
+text-align: center;
+display: inline-flex;
+}
+
+.third-container h1 {
+  padding: 32px 0px;
+  font-size: 70px;
+  color: black;
+}
+body {
+  background-color: white;
+  height: 2500px;
+}
