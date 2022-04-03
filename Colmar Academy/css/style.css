@@ -71,21 +71,15 @@ align-items: baseline;
 
 .container-sub-secondary {
 width: 40%;
-align-items: center;
+display: inline-block;
+vertical-align: middle;
+}
+
+.container-sub-secondary img {
+  position: relative;
+  top:-42px;
 height: auto;
-
-}
-
-.helper {
-  padding: 32px 24px;
-  height: auto;
-  width: 35%;
-  display: inline-block;
-    vertical-align: middle;
-}
-
-.helper img {
-  vertical-align: middle;
+width: 35%;
 }
 .second-container-text  {
   position: absolute;
@@ -113,7 +107,7 @@ height: auto;
   background-color: gainsboro;
   align-items: center;
 text-align: center;
-display: inline-flex;
+overflow: hidden;
 }
 
 .third-container h1 {
@@ -121,6 +115,20 @@ display: inline-flex;
   font-size: 70px;
   color: black;
 }
+
+.third-container-images {
+  display: inline-flex;
+}
+
+.third-container img {
+height: 150px;
+
+}
+
+.imageone {
+flex-shrink: 1;
+}
+
 body {
   background-color: white;
   height: 2500px;
